@@ -73,12 +73,12 @@ padding: 2em;
     width: 40%;
 }
 button{
-    padding: 1em;
+    padding: 0.7em;
     border-radius: 25px;
     background-color: orangered;
     color: white;
     border: none;
-    width: 30%;
+    width: 50%;
     margin: 15px;
     box-shadow: rgba(180, 25, 20, 0.518) 0px 8px 24px;
     text-align: center;
@@ -115,7 +115,9 @@ padding-left: 60px;
 .small-div{
     display: flex;
     flex-direction: column;
+    
 }
+
 .span{
 
     position: absolute;
@@ -144,7 +146,7 @@ p{
 .simplify{
     text-align: center;
     color: white;
-    font-size: 2.8em;
+    font-size: 2em;
     font-weight: 400;
 }
 .sect-div{
@@ -221,7 +223,7 @@ ul{
   }
 
 .dot{
-    border: 1px solid red;
+    
     height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -245,14 +247,11 @@ ul{
         display: flex;
         justify-content: space-around;
       width: 100%;
-      border: 2px solid green;
+     
     }
-    .logo-img, .nav-second-list{
-       
-        border: 2px solid green;
-    }
+    
     .nav-second-list{
-        border: 2px saddlebrown solid;
+       
         width: 40%;
         
         display: flex;
@@ -270,12 +269,12 @@ ul{
         display: flex;
         justify-content: center;
         align-content: center;
-        padding: 20px;
+        padding-top: 20px;
         width: 20%;
 
     }
     .logo{
-width: 120px;
+width: 140px;
 height: 30px;
     }
     .first-sub-container{
@@ -284,8 +283,8 @@ height: 30px;
         justify-content: center;
         align-content: center;
         margin: 0 5em;
-        max-width: 1000px;
-        border: 8px rebeccapurple solid;
+        max-width: 1200px;
+        
      
     }
     .nav-button{
@@ -321,13 +320,13 @@ height: 30px;
         margin: 15px;
     }
     button{
-        width: 10%;
+        width: 20%;
     }
-    .first-button,.but2, .submit-button{
+    .first-button, .submit-button{
         width: 10%;
     }
     .wrapper-one{
-        border: 7px solid slategray;
+       
         display: flex;
     flex-direction: row-reverse;
     
@@ -338,16 +337,31 @@ height: 30px;
         justify-content: space-between;
     }
 h4{
+    padding: 15px 0px;
+    text-align: left;
     position: relative;
     z-index: 1;
     background: none;
-        /* width: 40%; */
+    justify-content: left;
+        
+    }
+    .small-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
     .span{
-        width: 100px;
+        width: 20%;
+        height: 10%;
+        position: relative;
         border-radius: 25px;
         margin: 12px 0;
        
+    }
+    .sep{
+       
+        width: 70%;
     }
     .first-container{
               text-align: left;
@@ -364,12 +378,11 @@ h4{
 
     .second-container{
         width: 40%;
-        border: 2px solid green;
+      
 
     }
     .sep-section{
-        /* position: absolute; */
-        border: 2px solid red;
+       
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -390,17 +403,17 @@ h4{
     }
 
     .sect-div{
-        display: flex;
-        justify-content: space-around;
+      display: flex;
+        justify-content: space-between;
         padding: 50px 0;
-        /* height: 40vh; */
+       
     }
     .simplify{
         margin: 12px;
-        /* max-width: 00px; */
+       
     }
     .but2{
-        width: 15%;
-        border-radius: 50px;
+      
+        border-radius: 1px;
     }
 }   
