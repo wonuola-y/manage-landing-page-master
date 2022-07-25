@@ -3,6 +3,7 @@ const close = document.querySelector('.close')
 const nav = document.querySelector('nav')
 const overlay = document.querySelector('body')
  
+// nav mobile
 console.log(hamburger);
 hamburger.addEventListener('click', ()=>{
     console.log('hello');
@@ -19,6 +20,7 @@ close.addEventListener('click', ()=>{
     overlay.style.backgroundColor = 'white'
 })
 
+// slider
 let slideNumber = 0;
 displaySlides();
 
