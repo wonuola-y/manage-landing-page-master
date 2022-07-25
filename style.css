@@ -25,19 +25,19 @@ border-radius: 10px;
 .nav-list{
     text-align: center;
 }
-.container{
+.wrapper-two{
     background: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -3%;
-    background-position-x: 12% ;
+    background-size: 40%;
+    background-position-y: 288%;
+    background-position-x: -39% ;
 }
 .wrapper-one{
     background: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 80%; 
-    background-position-y: 110%;
-    background-position-x: 340%;
+    background-size: 50%; 
+    background-position-y: 100%;
+    background-position-x: 100%;
 }
 .illustration{
     width: 100%;
@@ -259,7 +259,7 @@ ul{
 
     }
     h2{
-        margin: 5em 0;
+        margin: 1em 0;
 
     }
     .list{
@@ -313,6 +313,7 @@ height: 30px;
 
     }
     .section-text{
+        margin-top: 7em;
         display: flex;
     }
     .section-text p{
