@@ -2,7 +2,6 @@ const hamburger = document.querySelector('.hamburger')
 const close = document.querySelector('.close')
 const nav = document.querySelector('nav')
 const overlay = document.querySelector('body')
- 
 // nav mobile
 console.log(hamburger);
 hamburger.addEventListener('click', ()=>{
