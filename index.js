@@ -5,9 +5,12 @@ const overlay = document.querySelector('body')
 // nav mobile
 console.log(hamburger);
 hamburger.addEventListener('click', ()=>{
-    console.log('hello');
     nav.style.display = ' block';
-    overlay.style.backgroundColor = 'rgba(88, 83, 82, 0.28)'
+    overlay.style.backgroundColor = 'rgba(88, 80, 82, 0.28)'
+    // nav.style.opacity = '1';
+
+    document.querySelector('.body-container').style.opacity = '0.3';
+    nav.style.opacity = '1';
     close.style.display = 'block';
     hamburger.style.display = 'none';
 });
@@ -15,6 +18,7 @@ hamburger.addEventListener('click', ()=>{
 close.addEventListener('click', ()=>{
     nav.style.display = ' none';
     close.style.display = 'none';
+    document.querySelector('.body-container').style.opacity = '1';
     hamburger.style.display = 'block';
     overlay.style.backgroundColor = 'white'
 })
