@@ -82,6 +82,7 @@ button{
     margin: 15px;
     box-shadow: rgba(180, 25, 20, 0.518) 0px 8px 24px;
     text-align: center;
+    cursor:pointer;
 }
 h2{
     color: hsl(228, 39%, 23%);
@@ -234,7 +235,7 @@ ul{
 .active {
     background-color: orangered;
   }
-.desktop-section, .desktop-nav,.illustration-desktop{
+.desktop-section, .desktop-nav,.illustration-desktop, .desktop-footer{
     display: none;
 }
 
@@ -274,7 +275,7 @@ ul{
 
     }
     .logo{
-width: 140px;
+width: 150px;
 height: 30px;
     }
     .first-sub-container{
@@ -415,6 +416,41 @@ h4{
     }
     .but2{
       
-        border-radius: 1px;
+      display: none;
     }
-}   
+    .mobile-footer{
+        display: none;
+    }
+    .desktop-footer{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .icon{
+        width: 20%;
+    }
+    .icon-list{
+       /* margin: 0; */
+        margin-top: 80px;
+    }
+    input, .icon > p {
+        margin-top: 50px;
+    }
+ .icon-list > li > a > img{
+    width: 20px;
+ }
+    input[type = "text"] {
+        width: 60%;
+    }
+    input[type = "submit"]{
+        width: 20%;
+    }
+    .footer-list, .input{
+
+        width: 35%;
+    }
+    .footer-list{
+        grid-template-columns: repeat(2, 59%);
+    }
+
+}  
