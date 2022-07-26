@@ -294,7 +294,9 @@ height: 30px;
     .for-mobile{
         display: none;
     }
-    
+    .but{
+        width: 20%;
+    }
     .mobile-section{
         display: none;
     }
@@ -322,7 +324,7 @@ height: 30px;
         margin: 15px;
     }
     button{
-        width: 20%;
+        width: 10%;
     }
     .first-button, .submit-button{
         width: 10%;
