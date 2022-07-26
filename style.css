@@ -159,7 +159,18 @@ p{
     color: hsl(12, 88%, 59%);
     background-color: white;
     justify-self: center;
+    padding:.5em .75em;
+    border-radius: 1rem;
 
+}
+
+.but2:focus,
+.but2:hover{
+    color: rgba(242, 145, 121, 0.824);
+}
+button:focus,
+button:hover{
+    background-color: rgba(242, 145, 121, 0.824);
 }
 footer{
   
