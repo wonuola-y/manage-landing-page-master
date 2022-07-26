@@ -79,7 +79,7 @@ button{
     color: white;
     border: none;
     width: 50%;
-    margin: 15px;
+    margin-top: 15px;
     box-shadow: rgba(180, 25, 20, 0.518) 0px 8px 24px;
     text-align: center;
     cursor:pointer;
@@ -211,10 +211,13 @@ input{
 align-content: center;
 }
 
-.content-one, .copyright{
+ .copyright{
     text-align: center;
     justify-content: center;
     align-content: center;
+}
+.content-one{
+    margin-left: 2em;
 }
 
 .icons{
@@ -279,15 +282,15 @@ ul{
     }
     .logo-img{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-content: center;
         padding-top: 20px;
         width: 20%;
 
     }
     .logo{
-width: 150px;
-height: 30px;
+width: 147px;
+height: 25px;
     }
     .first-sub-container{
         display: flex;
@@ -424,7 +427,7 @@ h4{
        
     }
     .simplify{
-        margin: 12px;
+        margin-left: 2em;
        
     }
     .but2{
