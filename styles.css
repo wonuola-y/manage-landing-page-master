@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 15px;
+    margin: 12px;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 80vw;
+    padding: 1em;
+    border-radius: .25em;
+    text-align: center;
+    border: 2px gainsboro solid;
+    box-shadow: 5px 5px 5px 1px rgb(173, 173, 173);
+
+}
+i{
+    font-style: normal;
+}
+a{
+    color: black;
+}
+p{
+    margin: 0;
+    text-align: center;
+
+}

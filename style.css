@@ -252,8 +252,10 @@ ul{
 .desktop-section, .desktop-nav,.illustration-desktop, .desktop-footer{
     display: none;
 }
-
-
+a{
+    text-decoration: none;
+    color: white;
+}
 @media screen and ( min-width: 700px){
     .mobile-nav{
         display: none;
